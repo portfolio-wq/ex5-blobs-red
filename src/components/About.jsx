@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Bigblob from "./blob/Bigblob";
 
 function About() {
   return (

@@ -3,6 +3,7 @@ import React from "react";
 import Blob2 from "./blob/Blob2";
 import Blob from "./blob/Blob";
 import Blob3 from "./blob/Blob3";
+import Bigblob2 from "./blob/Bigblob2";
 
 function Experience() {
   const experience = [
@@ -50,7 +51,7 @@ function Experience() {
       <section className=" overflow-hidden">
         <div className="center mt-[50px] lg:w-[80%] md:mx-auto  flex justify-around gap-3 flex-col ">
           <Blob3 />
-
+          <Bigblob2 />
           <div className="w-fit  ">
             <div className="w-fit mb-5 flex flex-col gap-2 ">
               <h1 className="text-xl font-medium ">Experince and Education</h1>

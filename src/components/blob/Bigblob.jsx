@@ -1,7 +1,7 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
 
-function Blob3() {
+function Bigblob() {
   const blob1 =
     "M158.7 -157.7C208 -109.4 252 -54.7 244.8 -7.2C237.6 40.3 179.3 80.6 129.9 130.6C80.6 180.6 40.3 240.3 -4.1 244.4C-48.6 248.6 -97.1 197.1 -126.4 147.1C-155.8 97.1 -165.9 48.6 -159.3 6.6C-152.7 -35.4 -129.4 -70.7 -100 -119C-70.7 -167.4 -35.4 -228.7 9.7 -238.4C54.7 -248 109.4 -206 158.7 -157.7";
   const blob2 =
@@ -16,7 +16,7 @@ function Blob3() {
     loop: { reverse: true },
   });
   return (
-    <div className="blob-motion3 lg:hidden">
+    <div className="bigblob-motion1 hidden lg:block">
       <svg
         id="visual"
         viewBox="0 0 900 600"
@@ -34,4 +34,4 @@ function Blob3() {
   );
 }
 
-export default Blob3;
+export default Bigblob;

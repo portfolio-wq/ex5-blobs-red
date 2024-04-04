@@ -150,7 +150,18 @@ html {
 .blob-content {
   z-index: 1;
 }
-
+/* big blobs */
+.bigblob-motion1 {
+  position: absolute;
+  transform: translate(90%, -10%);
+  z-index: -1;
+}
+.bigblob-motion2 {
+  position: absolute;
+  transform: translate(-50%, -10%);
+  z-index: -1;
+}
+/*  */
 .blobs {
   width: 100%;
   background: url("../../public/blobs.svg") no-repeat bottom / cover;

@@ -8,12 +8,13 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 import Blob from "./blob/Blob";
 import Blob2 from "./blob/Blob2";
+import Bigblob from "./blob/Bigblob";
 
 function Header() {
   return (
     <div id="hero" className="overflow-hidden">
       <section className="md:pt-[100px] relative ">
-        <div className=" center flex md:justify-around flex-wrap justify-center items-center    blob-content">
+        <div className=" center flex md:justify-around flex-wrap justify-center items-center  lg:w-[80%] md:mx-auto  md:flex lg:justify-around   blob-content">
           <div className=" blob">
             <h1 className="text-4xl font">
               Hi I&apos;m<strong> Omar Hajmui</strong>
@@ -45,6 +46,8 @@ function Header() {
             <Image src={hero} fill alt="hero" />
           </div>
         </div>
+        <Bigblob />
+
         <Blob2 />
       </section>
     </div>
